@@ -1,6 +1,6 @@
 {
   "name": "electron-tutorial-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "React Electron App",
   "main": "public/electron.js",
   "homepage": "./",
@@ -58,34 +58,30 @@
     "electron": "^19.0.7",
     "electron-builder": "^23.1.0"
   },
-  "build": {
-    "generateUpdatesFilesForAllChannels": true,
-    "appId": "cinarrtolga.electronapp",
-    "productName": "React Electron App",
-    "copyright": "Cinarrtolga",
-    "mac": {
-      "publish": {
-        "provider": "github",
-        "owner": "cinarrtolga",
-        "repo": "ART-React-Electron-App"
-      }
-    },
-    "win": {
-      "publish": {
-        "provider": "github",
-        "owner": "cinarrtolga",
-        "repo": "ART-React-Electron-App"
-      }
-    },
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
+"build": {
+  "appId": "MohsinAliSyed.electronapp",
+  "productName": "React Electron App",
+  "copyright": "MohsinAliSyed",
+  "mac": {
     "publish": {
       "provider": "github",
-      "owner": "cinarrtolga"
+      "owner": "MohsinAliSyed",
+      "repo": "React-Electron-App"
     }
-  }
+  },
+  "win": {
+    "publish": {
+      "provider": "github",
+      "owner": "MohsinAliSyed",
+      "repo": "React-Electron-App"
+    }
+  },
+  "files": [
+    "build/**/*",
+    "node_modules/**/*"
+  ]
+}
+
 }
 
 
